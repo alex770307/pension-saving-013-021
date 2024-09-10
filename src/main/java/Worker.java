@@ -1,5 +1,8 @@
 import java.time.LocalDate;
-
+/**
+ * The Worker class represents a person who is a worker.
+ * It extends the Person class and implements the AbleToWork interface.
+ */
 public class Worker extends Person implements AbleToWork {
 
     public Worker() {

@@ -1,6 +1,9 @@
 import java.time.LocalDate;
 import java.util.Objects;
-
+/**
+ * The Teenager class represents a person who is a teenager.
+ * It extends the Person class and includes additional attributes and methods specific to teenagers.
+ */
 public class Teenager extends Person {
     private String sport;
     private String study;

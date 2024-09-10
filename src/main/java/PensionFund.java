@@ -1,6 +1,9 @@
 import java.time.LocalDate;
 import java.util.Objects;
-
+/**
+ * The PensionFund class represents a pension fund with a name, number of depositors,
+ * and a foundation date. It provides methods to calculate the pension for a person.
+ */
 public class PensionFund {
 
     private String name;

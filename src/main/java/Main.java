@@ -1,6 +1,12 @@
 import java.time.LocalDate;
 
+/**
+ * The Main class serves as the entry point for the application.
+ * It demonstrates the creation and usage of Worker, Pensioner, and Teenager objects,
+ * as well as the calculation of their experience, average salary, and pension.
+ */
 public class Main {
+
     public static void main(String[] args) {
 
         PensionFund pensionFund = new PensionFund("Deutsche-Rentenversicherung",

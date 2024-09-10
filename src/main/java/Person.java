@@ -1,6 +1,9 @@
 import java.time.LocalDate;
 import java.util.Objects;
-
+/**
+ * The Person class represents a general person with common attributes and methods.
+ * It serves as a base class for more specific types of people.
+ */
 public abstract class Person {
     private String name;
     private int age;

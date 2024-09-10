@@ -1,6 +1,9 @@
 import java.time.LocalDate;
 import java.util.Random;
-
+/**
+ * The Pensioner class represents a person who is retired but can still perform work.
+ * It extends the Person class and implements the AbleToWork interface.
+ */
 public class Pensioner extends Person implements AbleToWork {
     private static final double CONSTANT_VALUE_FOR_ALL_PENSIONERS = 2000;
     private static final int MAX_WORK_EXPERIENCE = 49;
